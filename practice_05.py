@@ -8,6 +8,8 @@ for num in range(100 , 999 , 2):
         even_count += 1
         even_sum += num
 
-#چاپ و محاسبه میانگین
+# محاسبه میانگین
 even_avg = even_sum / even_count
+
+#چاپ میانگین
 print("even average:",even_avg)
