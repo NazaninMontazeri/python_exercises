@@ -8,6 +8,7 @@ area = length * width
 #چاپ مساحت
 print("area:",area)
 
+#بررسی مجوز
 match area :
 
     case _ if 0 <= area <= 100 :
