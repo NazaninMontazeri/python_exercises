@@ -10,4 +10,4 @@ for num in range(100 , 999 , 2):
 
 #چاپ و محاسبه میانگین
 even_avg = even_sum / even_count
-print("even avg:",even_avg)
+print("even average:",even_avg)
