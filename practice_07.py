@@ -11,9 +11,9 @@ while True :
        break
 
 # چاپ لیست کل اسم ها
-print("name list:",name_list)
+print("name list:" , name_list)
 
-# ترتیب کردن اسم ها به ترتیب الفبا
+# مرتب کردن اسم ها به ترتیب الفبا
 name_list.sort()
 
 # چاپ اسم ها یکی یکی
