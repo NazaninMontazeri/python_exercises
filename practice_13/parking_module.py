@@ -24,3 +24,9 @@ def print_parking_list(parking_list) :
     for car in parking_list :
         print("Parking List")
         print(f"{car['name']:10} {car['color']:10} {car['plate']:10} {car['enter_time']:10}")
+
+#تابع جستجو و تکراری نبودن
+def find_car_by_plate(parking_list , plate) :
+   for car in  parking_list :
+        if car['plate'] == plate :
+            return car

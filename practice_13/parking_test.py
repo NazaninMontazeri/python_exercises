@@ -12,7 +12,14 @@ from practice_13.parking_module import *
 
 #passed
 #sample_list =[
-#    {'name': 'ss' , 'color': 'ff' , 'plate': '1112234k' ,'enter_time': '90' },
+#   {'name': 'ss' , 'color': 'ff' , 'plate': '1112234k' ,'enter_time': '90' },
 #   {'name': 'pp' , 'color': 'll' , 'plate': '8882234k' ,'enter_time': '90' }
 #]
 #print_parking_list(sample_list)
+
+#passed
+#sample_list =[
+#     {'name': 'ss' , 'color': 'ff' , 'plate': '1112234k' ,'enter_time': '90' },
+#     {'name': 'pp' , 'color': 'll' , 'plate': '8882234k' ,'enter_time': '90' }
+#]
+#print(find_car_by_plate(sample_list , '1112234k' ))
