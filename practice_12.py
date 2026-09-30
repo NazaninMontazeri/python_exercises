@@ -37,5 +37,3 @@ print("product list:" , product_list)
 #چاپ لیست زیر هم و به شکل خواسته شده
 for product in product_list :
     print(f"{product['name']:10}{product['quantity']:10}{product['price']:10}")
-
-
