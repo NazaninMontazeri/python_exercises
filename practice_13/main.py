@@ -26,8 +26,9 @@ while True :
         #جستجو ماشین با پلاک
         case 3 :
             plate = input("Enter a plate:")
-            if find_car_by_plate(parking_list, car['plate']):
-               print("Car found")
+            result = find_car_by_plate(parking_list, car['plate'])
+            if result :
+               print("Car found:", result )
             else:
                 print("Car not found")
 
