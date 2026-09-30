@@ -8,7 +8,7 @@ while True :
     quantity = int(input("enter a quantity:"))
     price = int(input("enter a price:"))
 
-    #اضافه کردن به دیکشنری
+    #اضافه کردن کالا به دیکشنری
     product = {
         "name": name ,
         "quantity" : quantity ,
@@ -23,7 +23,7 @@ while True :
 
     # بررسی سقف خرید
     if total_price < 1_000_000 :
-         #اضافه کردن به لیست
+         #اضافه کردن کالا به لیست
         product_list.append(product)
         print("product saved")
     else:
@@ -34,6 +34,6 @@ while True :
 #چاپ لیست کالاها
 print("product list:" , product_list)
 
-#چاپ لیست زیر هم و به شکل خواسته شده
+#چاپ لیست کالاها زیر هم و به شکل خواسته شده
 for product in product_list :
     print(f"{product['name']:10}{product['quantity']:10}{product['price']:10}")
