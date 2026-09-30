@@ -20,5 +20,12 @@ def get_contact_info():
     return {'name':name , 'last_name':last_name , 'phone':phone , 'title':title}
 
 #تابع نمایش اطلاعات
+def print_contact_list(contact_list):
+    for contact in contact_list :
+        print(f"{contact['name']:10} {contact['last_name']:10} {contact['phone']:10} {contact['title']:10}")
 
 #تابع جستجو و تکراری نبودن شماره تلفن
+def find_by_phone(contact_list , phone):
+    for contact in contact_list :
+        if contact['phone'] == phone :
+           return contact
