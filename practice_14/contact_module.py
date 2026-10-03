@@ -1,6 +1,6 @@
 #توابع مورد نیاز
 
-contact = []
+contact_list = []
 
 #تابع منو
 def show_menu():
@@ -25,7 +25,7 @@ def print_contact_list(contact_list):
         print(f"{contact['name']:10} {contact['last_name']:10} {contact['phone']:10} {contact['title']:10}")
 
 #تابع جستجو و تکراری نبودن شماره تلفن
-def find_by_phone(contact_list , phone):
+def find_contact_by_phone(contact_list , phone):
     for contact in contact_list :
         if contact['phone'] == phone :
            return contact
