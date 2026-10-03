@@ -1,5 +1,4 @@
 #برنامه اصلی
-
 from practice_14.contact_module import *
 
 while True :
@@ -8,7 +7,6 @@ while True :
     print("__________________________________")
 
     match option :
-
 
         case 1 :
             #دریافت اطلاعات کالا
@@ -20,7 +18,6 @@ while True :
             else:
                  contact_list.append(contact)
                  print("Contact added successfully")
-
 
         # چاپ لیست کالا
         case 2 :
