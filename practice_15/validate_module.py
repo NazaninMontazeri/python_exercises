@@ -7,7 +7,11 @@ from persian_tools.plate import *
 from persian_tools.bill import *
 
 #تابع کد ملی
+
 #تابع موبایل
+
 #تابع شماره کارت بانکی
+
 #تابع پلاک
+
 #تابع شناسه قبض
