@@ -20,4 +20,3 @@ class Lesson :
     #تابع نمایش رشته ای شیء
     def __rep__(self):
         return f"Lesson(code={self.code} , name={self.name} , teacher={self.teacher})"
-
