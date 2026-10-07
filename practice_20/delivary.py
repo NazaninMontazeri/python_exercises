@@ -14,4 +14,4 @@ class Delivary :
 
     #متد نمایش رشته ای شی
     def __repr__(self):
-        return f"{self.id} {self.name} {self.delivary_date} {self.address}"
+        return f"Delivary(id={self.id} , name= {self.name} , delivary_date= {self.delivary_date} , address= {self.address})"
