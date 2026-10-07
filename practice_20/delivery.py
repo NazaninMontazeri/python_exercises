@@ -1,3 +1,9 @@
 #ساخت کلاس تحویل
 class Delivary :
-    pass
+
+    # متد سازنده
+    def __init__(self):
+        self.id = None
+        self.name = None
+        self.delivary_date = None
+        self.address = None
