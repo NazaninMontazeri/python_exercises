@@ -14,3 +14,12 @@ class Ferniture(NoElectric) :
     def __init__(self):
         self.capacity = None
         self.color = None
+
+#test
+fer1 = Ferniture()
+fer1.name = "ferniture"
+fer1.capacity = "7"
+fer1.color = "red"
+fer1.price = "2340$"
+
+print(fer1)
