@@ -1,5 +1,5 @@
 # کلاس غیر برقی
-from practice_21.product import Product
+from practice_021.product import Product
 
 class NoElectric(Product) :
 
