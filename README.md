@@ -144,4 +144,8 @@ python_exercises/
 | `practice_014` | `main.py` + module | Contact manager |
 | `practice_015` | `main.py` + module | Input validation |
 | `practice_016` | `main.py` + module | Inquiry / survey system |
-| `practi
+| `practice_017` | `lesson_manager.py` | Lesson management + pricing |
+| `practice_018` | `lesson.py` | Lesson class (OOP basics) |
+| `practice_019` | `car.py` | Car class (OOP basics) |
+| `practice_020` | `delivery.py` | Delivery class (OOP basics) |
+| `practice_021` | `product.py` + ... | Product inheritance tree |
