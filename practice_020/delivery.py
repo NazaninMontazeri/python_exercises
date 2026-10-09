@@ -1,5 +1,5 @@
 #ساخت کلاس تحویل
-class Delivary :
+class Delivery :
 
     # متد سازنده
     def __init__(self):
