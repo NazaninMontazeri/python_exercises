@@ -83,12 +83,18 @@ python_exercises/
 │   ├── delivery.py
 │   └── delivery_test.py
 │
-└── practice_021/              # Product (Inheritance)
-    ├── product.py
-    ├── electric.py
-    └── no_electric.py
-```
-
+├── practice_021/              # Product (Inheritance)
+│   ├── product.py
+│   ├── electric.py
+│   └── no_electric.py
+│
+├── practice_022/              # Lesson (OOP with property)
+│   ├── lesson.py
+│   └── lesson_test.py
+│
+└── practice_023/              # Car (OOP with property)
+    ├── car.py
+    └── car_test.py
 ---
 
 ## 🛠️ Technologies Used
@@ -149,3 +155,5 @@ python_exercises/
 | `practice_019` | `car.py` | Car class (OOP basics) |
 | `practice_020` | `delivery.py` | Delivery class (OOP basics) |
 | `practice_021` | `product.py` + ... | Product inheritance tree |
+| `practice_022` | `lesson.py` + `lesson_test.py` | Lesson class with property setters (OOP) |
+| `practice_023` | `car.py` + `car_test.py` | Car class with property setters (OOP) |
