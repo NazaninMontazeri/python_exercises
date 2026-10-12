@@ -92,10 +92,15 @@ python_exercises/
 │   ├── lesson.py
 │   └── lesson_test.py
 │
-└── practice_023/              # Car (OOP with property)
-    ├── car.py
-    └── car_test.py
----
+│── practice_023/              # Car (OOP with property)
+│    ├── car.py
+│    └── car_test.py
+│
+│── practice_024/              # Professor (OOP with property)
+│   ├── professor.py
+│   └── professor_test.py
+│    
+---    
 
 ## 🛠️ Technologies Used
 
@@ -157,3 +162,4 @@ python_exercises/
 | `practice_021` | `product.py` + ... | Product inheritance tree |
 | `practice_022` | `lesson.py` + `lesson_test.py` | Lesson class with property setters (OOP) |
 | `practice_023` | `car.py` + `car_test.py` | Car class with property setters (OOP) |
+| `practice_024` | `professor.py` + `professor_test.py` | Professor class with property setters (OOP) |
