@@ -36,5 +36,5 @@ class Lesson :
     @teacher.setter
     def teacher(self , new_teacher):
         if not isinstance(new_teacher , str):
-            raise TypeError("Teacher must be z string")
+            raise TypeError("Teacher must be a string")
         self.__teacher = new_teacher
