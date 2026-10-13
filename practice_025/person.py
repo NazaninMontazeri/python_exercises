@@ -14,9 +14,10 @@ class Person:
 
     @property
     def name(self):
-        return f"Person(name={self.name} , n_id={self.n_id})"
+        return self.__name
 
     @name.setter
     def name(self , new_name):
         if not isinstance(new_name , str):
             raise TypeError("Name must be string")
+        self.__name = new_name
