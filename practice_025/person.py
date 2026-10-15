@@ -2,7 +2,7 @@
 
 class Person:
     #متد سازنده
-    def __init__(self , name , n_id , phone = None , address = None):
+    def __init__(self , name , n_id , phone , address = None):
         self.name = name
         self.n_id = n_id
         self.phone = phone
@@ -31,3 +31,23 @@ class Person:
         if not isinstance(new_n_id , int):
             raise TypeError("N id must be integer")
         self.__n_id = new_n_id
+
+    @property
+    def phone(self):
+        return self.__phone
+
+    @phone.setter
+    def phone(self, new_phone):
+        if not isinstance(new_phone, int):
+            raise TypeError("Phone id must be a integer")
+        self.__phone = new_phone
+
+    @property
+    def address(self):
+        return self.__address
+
+    @address.setter
+    def address(self, new_address):
+        if not isinstance(new_address, str):
+            raise TypeError("Address must be a string")
+        self.__address = new_address
