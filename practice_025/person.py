@@ -21,3 +21,13 @@ class Person:
         if not isinstance(new_name , str):
             raise TypeError("Name must be string")
         self.__name = new_name
+
+    @property
+    def n_id(self):
+        return self.__n_id
+
+    @n_id.setter
+    def n_id(self , new_n_id):
+        if not isinstance(new_n_id , int):
+            raise TypeError("N id must be integer")
+        self.__n_id = new_n_id
