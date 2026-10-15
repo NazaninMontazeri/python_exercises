@@ -99,6 +99,10 @@ python_exercises/
 │── practice_024/              # Professor (OOP with property)
 │   ├── professor.py
 │   └── professor_test.py
+│
+│── practice_025/              # Person (OOP with property)
+│   ├── person.py
+│   └── person_test.py
 │    
 ---    
 
@@ -137,29 +141,30 @@ python_exercises/
 
 ## 📖 Exercise Descriptions
 
-| Folder | File | Description |
-|---|---|---|
-| `practice_001` | `hello_github.py` | Prints "Hello Github" |
-| `practice_002` | `bmi_calculator.py` | Calculates Body Mass Index (BMI) |
-| `practice_003` | `area_permission.py` | Rectangle area + permission check |
-| `practice_004` | `number_range.py` | Prints numbers from negative to positive range |
-| `practice_005` | `even_average.py` | Average of even numbers divisible by 7 |
-| `practice_006` | `scores_average.py` | Average score of 5 subjects |
-| `practice_007` | `sort_names.py` | Sorts a list of names alphabetically |
-| `practice_008` | `even_odd_lists.py` | Separates even and odd numbers into two lists |
-| `practice_009` | `multiples_of_seven.py` | List of even multiples of 7 |
-| `practice_010` | `odd_numbers_stats.py` | Sum and average of odd numbers |
-| `practice_011` | `course_units.py` | Course registration until 17 units |
-| `practice_012` | `shopping_cart.py` | Shopping cart with 1,000,000 price limit |
-| `practice_013` | `main.py` + module | Parking management system |
-| `practice_014` | `main.py` + module | Contact manager |
-| `practice_015` | `main.py` + module | Input validation |
-| `practice_016` | `main.py` + module | Inquiry / survey system |
-| `practice_017` | `lesson_manager.py` | Lesson management + pricing |
-| `practice_018` | `lesson.py` | Lesson class (OOP basics) |
-| `practice_019` | `car.py` | Car class (OOP basics) |
-| `practice_020` | `delivery.py` | Delivery class (OOP basics) |
-| `practice_021` | `product.py` + ... | Product inheritance tree |
-| `practice_022` | `lesson.py` + `lesson_test.py` | Lesson class with property setters (OOP) |
-| `practice_023` | `car.py` + `car_test.py` | Car class with property setters (OOP) |
-| `practice_024` | `professor.py` + `professor_test.py` | Professor class with property setters (OOP) |
+| Folder         | File                                 | Description                                    |
+|----------------|--------------------------------------|------------------------------------------------|
+| `practice_001` | `hello_github.py`                    | Prints "Hello Github"                          |
+| `practice_002` | `bmi_calculator.py`                  | Calculates Body Mass Index (BMI)               |
+| `practice_003` | `area_permission.py`                 | Rectangle area + permission check              |
+| `practice_004` | `number_range.py`                    | Prints numbers from negative to positive range |
+| `practice_005` | `even_average.py`                    | Average of even numbers divisible by 7         |
+| `practice_006` | `scores_average.py`                  | Average score of 5 subjects                    |
+| `practice_007` | `sort_names.py`                      | Sorts a list of names alphabetically           |
+| `practice_008` | `even_odd_lists.py`                  | Separates even and odd numbers into two lists  |
+| `practice_009` | `multiples_of_seven.py`              | List of even multiples of 7                    |
+| `practice_010` | `odd_numbers_stats.py`               | Sum and average of odd numbers                 |
+| `practice_011` | `course_units.py`                    | Course registration until 17 units             |
+| `practice_012` | `shopping_cart.py`                   | Shopping cart with 1,000,000 price limit       |
+| `practice_013` | `main.py` + module                   | Parking management system                      |
+| `practice_014` | `main.py` + module                   | Contact manager                                |
+| `practice_015` | `main.py` + module                   | Input validation                               |
+| `practice_016` | `main.py` + module                   | Inquiry / survey system                        |
+| `practice_017` | `lesson_manager.py`                  | Lesson management + pricing                    |
+| `practice_018` | `lesson.py`                          | Lesson class (OOP basics)                      |
+| `practice_019` | `car.py`                             | Car class (OOP basics)                         |
+| `practice_020` | `delivery.py`                        | Delivery class (OOP basics)                    |
+| `practice_021` | `product.py` + ...                   | Product inheritance tree                       |
+| `practice_022` | `lesson.py` + `lesson_test.py`       | Lesson class with property setters (OOP)       |
+| `practice_023` | `car.py` + `car_test.py`             | Car class with property setters (OOP)          |
+| `practice_024` | `professor.py` + `professor_test.py` | Professor class with property setters (OOP)    |
+| `practice_025` | `person.py` + `person_test.py`       | Person class with property setters (OOP)       |
