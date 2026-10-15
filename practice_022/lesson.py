@@ -17,6 +17,8 @@ class Lesson :
 
     @code.setter
     def code(self , new_code):
+        if not isinstance(new_code, int):
+            raise TypeError("Code must be a integer")
         self.__code = new_code
 
     @property
