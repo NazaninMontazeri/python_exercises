@@ -2,11 +2,12 @@
 
 class Person:
     #متد سازنده
-    def __init__(self , name , n_id , phone , address = None):
+    def __init__(self , name , n_id , phone , address = None , email = None):
         self.name = name
         self.n_id = n_id
         self.phone = phone
         self.address = address
+        self.email =email
 
     #متد نمایش رشته ای شی
     def __repr__(self):
@@ -51,3 +52,13 @@ class Person:
         if not isinstance(new_address, str):
             raise TypeError("Address must be a string")
         self.__address = new_address
+
+    @property
+    def email(self):
+        return self.__email
+
+    @email.setter
+    def email(self, new_email):
+        if not isinstance(new_email, str):
+            raise TypeError("Email must be a string")
+        self.__email = new_email
