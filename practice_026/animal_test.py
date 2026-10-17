@@ -5,6 +5,6 @@ from animal import *
 #animal.make_sound()
 #print(animal)
 
-#Error
-cow = Cow("kocholo")
-cow.make_sound()
+#passed
+#cow = Cow("kocholo")
+#cow.make_sound()

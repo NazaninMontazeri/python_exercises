@@ -9,6 +9,6 @@ class Animal :
     def make_sound(self):
         pass
 
-    class Cow(Animal) :
-        def make_sound(self):
-            print("MOO")
+class Cow(Animal) :
+    def make_sound(self):
+        print("MOO")
