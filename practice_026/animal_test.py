@@ -8,3 +8,7 @@ from animal import *
 #passed
 #cow = Cow("kocholo")
 #cow.make_sound()
+
+#passed
+#dog = Dog("penii")
+#dog.make_sound()

@@ -12,3 +12,7 @@ class Animal :
 class Cow(Animal) :
     def make_sound(self):
         print("MOO")
+
+class Dog(Animal) :
+    def make_sound(self):
+        print("woof")
