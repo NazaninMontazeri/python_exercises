@@ -1,3 +1,4 @@
+#ساخت کلاس حیوان با استفاده از ارث بری و چند ریختی
 class Animal :
     def __init__(self , name):
         self.name = name
@@ -7,3 +8,7 @@ class Animal :
 
     def make_sound(self):
         pass
+
+    class Cow(Animal) :
+        def make_sound(self):
+            print("MOO")
