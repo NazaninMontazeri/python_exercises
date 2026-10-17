@@ -12,3 +12,7 @@ from animal import *
 #passed
 #dog = Dog("penii")
 #dog.make_sound()
+
+#passed
+#cat =Cat("kitty")
+#cat.make_sound()

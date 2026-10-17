@@ -15,4 +15,8 @@ class Cow(Animal) :
 
 class Dog(Animal) :
     def make_sound(self):
-        print("woof")
+        print("WOOF")
+
+class Cat(Animal):
+    def make_sound(self):
+        print("MEOW")
