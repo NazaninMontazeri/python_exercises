@@ -1,3 +1,4 @@
+#ساخت کلاس وسایل نقلیه با انتزاع
 class Vehicle :
     def __init__(self , name):
         self.name = name
