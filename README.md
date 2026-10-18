@@ -108,6 +108,10 @@ python_exercises/
 │    ├── animal.py
 │    └── animal_test.py
 │
+│── practice_027/              # Vehicle (OOP)
+│    ├── vehicle.py
+│    └── vehicle_test.py
+│
 ---    
 
 ## 🛠️ Technologies Used
@@ -173,3 +177,4 @@ python_exercises/
 | `practice_024` | `professor.py` + `professor_test.py` | Professor class with property setters (OOP)    |
 | `practice_025` | `person.py` + `person_test.py`       | Person class with property setters (OOP)       |
 | `practice_026` | `animal.py` + `animal_test.py` | Animal inheritance & polymorphism (OOP) |
+| `practice_027` | `vehicle.py` + `vehicle_test.py` | Vehicle class & private methods (OOP) |
