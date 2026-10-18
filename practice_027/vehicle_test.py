@@ -1,7 +1,7 @@
 from vehicle import *
 
 #passed
-vehicle = Vehicle("bus")
+#vehicle = Vehicle("bus")
 #print(vehicle)
 #vehicle.start()
 
@@ -10,4 +10,4 @@ vehicle = Vehicle("bus")
 #vehicle.hava()
 
 #passed
-vehicle.start()
+#vehicle.start()
