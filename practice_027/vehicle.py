@@ -18,4 +18,7 @@ class Vehicle :
         print("charkhesh")
 
     def start(self):
-        pass
+        Vehicle.__benzin(self)
+        Vehicle.__hava(self)
+        Vehicle.__motor(self)
+        Vehicle.__charkhesh(self)
