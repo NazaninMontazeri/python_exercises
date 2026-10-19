@@ -35,3 +35,23 @@ result = sorted(student_lesson_list , key = sorting_alefba , reverse = True)
 print("sorting name :" , result)
 
 #اضافه کردن قیمت به هر عضو
+def add_price(lesson):
+    if lesson["unit"] == 2 :
+        lesson["price"] = 1000
+    elif lesson["unit"] == 3 :
+        lesson["price"] = 1200
+    elif lesson["unit"] == 5 :
+        lesson["price"] = 1400
+    return lesson
+
+student_lesson_list = list(map(add_price , student_lesson_list ))
+print(student_lesson_list)
+
+#مبلغ کل پرداختی به حروف
+price = list(map(lambda lesson : lesson["price"] , student_lesson_list))
+print("price list :" , price)
+
+sum_price = sum(price)
+print("sum price : " , sum_price)
+
+print(digits.convert_to_word(sum_price))
