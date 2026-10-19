@@ -25,10 +25,13 @@ print( "student list :" , student_lesson_list)
 #مرتب سازی بر اساس تعداد واحد
 def sorting_tedad_unit(lesson):
     return lesson["unit"]
-result = sorted(student_lesson_list , key = sorting_tedad_unit ,reverse=True)
+result = sorted(student_lesson_list , key = sorting_tedad_unit ,reverse = True)
 print("sorting unit :" , result)
 
 #مرتب سازی اسم درسا بر  اساس حروف الفبا
-
+def sorting_alefba(lesson):
+    return lesson["name"]
+result = sorted(student_lesson_list , key = sorting_alefba , reverse = True)
+print("sorting name :" , result)
 
 #اضافه کردن قیمت به هر عضو
