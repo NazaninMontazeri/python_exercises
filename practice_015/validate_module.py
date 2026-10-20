@@ -22,10 +22,17 @@ def national_id(id_number):
     if validate(id_number):
         return True
     else:
-        print("invzlid id ...")
+        print("invzlid national id ...")
         return False
 
 #تابع موبایل
+def phone_number(phone):
+    if validate(phone):
+        print(operator_data(phone))
+        return True
+    else:
+        print("invzlid phone number ...")
+        return False
 
 #تابع شماره کارت بانکی
 
