@@ -18,3 +18,8 @@ from validate_module import *
 #passed
 #car = "p888888"
 #print(car_plate(car))
+
+#passed
+#bill = "099877656544322211"
+#pay = "988676765646"
+#print(bill_id(bill , pay))

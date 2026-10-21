@@ -4,7 +4,7 @@ from persian_tools.national_id import *
 from persian_tools.phone_number import *
 from persian_tools.bank.card_number import *
 from persian_tools.plate import *
-from persian_tools.bill import *
+from persian_tools import bill
 
 #تابع منو
 def show_menu():
@@ -46,10 +46,17 @@ def card_number(card_num):
 #تابع پلاک
 def car_plate(plate):
     if is_valid(plate):
+        print(get_info(plate))
         return True
     else:
         print("invzlid car plate ...")
         return False
 
 #تابع شناسه قبض
-
+def bill_id(bill_number , payment_number):
+    if bill.get_detail(bill_number , payment_number):
+       print(bill.get_detail(bill_number , payment_number))
+       return True
+    else:
+        print("invzlid bill id ...")
+        return False
