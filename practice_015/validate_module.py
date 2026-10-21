@@ -50,6 +50,5 @@ def car_plate(plate):
     else:
         print("invzlid car plate ...")
         return False
-
 #تابع شناسه قبض
 
