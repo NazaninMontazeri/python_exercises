@@ -35,10 +35,21 @@ def phone_number(phone):
         return False
 
 #تابع شماره کارت بانکی
-
+def card_number(card_num):
+    if validate(card_num):
+        print(bank_data(card_num))
+        return True
+    else:
+        print("invzlid card number ...")
+        return False
 
 #تابع پلاک
-
+def car_plate(plate):
+    if is_valid(plate):
+        return True
+    else:
+        print("invzlid car plate ...")
+        return False
 
 #تابع شناسه قبض
 
