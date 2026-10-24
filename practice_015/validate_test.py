@@ -16,7 +16,7 @@ from validate_module import *
 #print(check_card_number(card))
 
 #passed
-#car = "p888888"
+#car = "12ب34567"
 #print(check_car_plate(car))
 
 #passed

@@ -22,7 +22,9 @@ while True:
             print("Function returned:", check_card_number(card_number))
 
         case 4 :
-            pass
+            plate = input("Enter card number :")
+            check_car_plate(plate)
+            print("Function returned:", check_car_plate(plate))
 
         case 5 :
             pass
