@@ -27,7 +27,10 @@ while True:
             print("Function returned:", check_car_plate(plate))
 
         case 5 :
-            pass
+            bill = input("Enter bill number :")
+            pay = input("Enter pay number :")
+            check_bill_id(bill, pay)
+            print("Function returned:",  check_bill_id(bill, pay))
 
         case 0:
             print("Bye")
@@ -35,3 +38,6 @@ while True:
 
         case _ :
             print("invalid option!!!!!")
+            print("select other number for option!!")
+
+    print("__________________________________")
