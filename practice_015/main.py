@@ -12,7 +12,9 @@ while True:
             print("Function returned:", national_id(id_number))
 
         case 2 :
-            pass
+            phone = input("Enter phone number :")
+            check_phone_number(phone)
+            print("Function returned:", check_phone_number(phone))
 
         case 3 :
             pass
@@ -24,6 +26,7 @@ while True:
             pass
 
         case 0:
+            print("Bye")
             break
 
         case _ :
