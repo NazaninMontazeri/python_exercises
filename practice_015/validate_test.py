@@ -12,14 +12,14 @@ from validate_module import *
 #print(check_phone_number(phone))
 
 #passed
-card = "6219861900999765"
-print(check_card_number(card))
+#card = "6219861900999765"
+#print(check_card_number(card))
 
 #passed
 #car = "p888888"
-#print(car_plate(car))
+#print(check_car_plate(car))
 
 #passed
 #bill = "099877656544322211"
 #pay = "988676765646"
-#print(bill_id(bill , pay))
+#print(check_bill_id(bill , pay))
