@@ -2,7 +2,7 @@
 
 from persian_tools import national_id as nid
 from persian_tools import phone_number as phone
-from persian_tools import bank
+from persian_tools.bank import card_number
 from persian_tools import plate
 from persian_tools import bill
 
@@ -38,8 +38,8 @@ def check_phone_number(phone_num):
 
 #تابع شماره کارت بانکی
 def check_card_number(card_num):
-    if bank.card_number.validate(card_num):
-        print(bank.card_number.bank_data(card_num))
+    if card_number.validate(card_num):
+        print(card_number.bank_data(card_num))
         return True
     else:
         print("invzlid card number ...")

@@ -17,7 +17,9 @@ while True:
             print("Function returned:", check_phone_number(phone))
 
         case 3 :
-            pass
+            card_number = input("Enter card number :")
+            check_card_number(card_number)
+            print("Function returned:", check_card_number(card_number))
 
         case 4 :
             pass
