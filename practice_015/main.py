@@ -9,6 +9,7 @@ while True:
         case 1 :
             id_number = input("Enter national id :")
             national_id(id_number)
+            print("Function returned:", national_id(id_number))
 
         case 2 :
             pass

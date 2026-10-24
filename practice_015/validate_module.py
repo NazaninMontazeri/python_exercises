@@ -1,10 +1,12 @@
 # توابع مورد نیاز
 
-from persian_tools.national_id import *
-from persian_tools.phone_number import *
-from persian_tools.bank.card_number import *
-from persian_tools.plate import *
+from persian_tools import national_id as nid
+from persian_tools import phone_number as phone
+from persian_tools import bank
+from persian_tools import plate
 from persian_tools import bill
+
+
 
 #تابع منو
 def show_menu():
@@ -19,41 +21,41 @@ def show_menu():
 
 #تابع کد ملی
 def national_id(id_number):
-    if validate(id_number):
+    if nid.validate(id_number):
         return True
     else:
         print("invzlid national id ...")
         return False
 
 #تابع موبایل
-def phone_number(phone):
-    if validate(phone):
-        print(operator_data(phone))
+def check_phone_number(phone_num):
+     if phone.validate(phone_num):
+        print(phone.operator_data(phone_num))
         return True
-    else:
-        print("invzlid phone number ...")
+     else:
+        print("invalid phone number ...")
         return False
 
 #تابع شماره کارت بانکی
-def card_number(card_num):
-    if validate(card_num):
-        print(bank_data(card_num))
+def check_card_number(card_num):
+    if bank.card_number.validate(card_num):
+        print(bank.card_number.bank_data(card_num))
         return True
     else:
         print("invzlid card number ...")
         return False
 
 #تابع پلاک
-def car_plate(plate):
-    if is_valid(plate):
-        print(get_info(plate))
+def check_car_plate(plate_num):
+    if plate.is_valid(plate_num):
+        print(plate.get_info(plate_num))
         return True
     else:
         print("invzlid car plate ...")
         return False
 
 #تابع شناسه قبض
-def bill_id(bill_number , payment_number):
+def check_bill_id(bill_number , payment_number):
     if bill.get_detail(bill_number , payment_number):
        print(bill.get_detail(bill_number , payment_number))
        return True

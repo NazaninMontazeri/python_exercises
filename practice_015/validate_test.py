@@ -9,11 +9,11 @@ from validate_module import *
 
 #passed
 #phone = "09125800000"
-#print(phone_number(phone))
+#print(check_phone_number(phone))
 
 #passed
-#card = "6219861900999765"
-#print(card_number(card))
+card = "6219861900999765"
+print(check_card_number(card))
 
 #passed
 #car = "p888888"
