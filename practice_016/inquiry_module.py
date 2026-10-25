@@ -8,7 +8,7 @@ from persian_tools import bill
 
 
 #تابع کد ملی
-def national_id(id_number):
+def check_national_id(id_number):
     if nid.validate(id_number):
         return True
     else:
