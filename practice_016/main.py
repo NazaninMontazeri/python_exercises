@@ -46,5 +46,10 @@ Label(window , text="card_number").place(x = 20 , y = 100)
 check_card_number = StringVar()
 Entry(window , textvariable = check_card_number).place(x = 110 , y = 100)
 
+#plate
+Label(window , text="plate").place(x = 20 , y = 140)
+check_car_plate= StringVar()
+Entry(window , textvariable =  check_car_plate).place(x = 110 , y = 140)
+
 
 window.mainloop()
