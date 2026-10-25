@@ -11,14 +11,14 @@ def verification_click():
             "phone" : check_phone_number(phone.get()) ,
             "card_number" : check_card_number(card_number.get()) ,
             "bill" : check_bill_id(bill.get()) ,
-            "nationalid" :  check_national_id(national_id.get()) ,
+            "national_id" : check_national_id(check_national_id.get()) ,
             "plate" : check_car_plate(plate.get())
         }
 
         person_list.append(person)
         messagebox.showerror("Saved" , "person list")
 
-        national_id.set("")
+        check_national_id.set("")
         phone.set("")
         card_number.set("")
         bill.set("")

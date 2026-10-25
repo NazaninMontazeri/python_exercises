@@ -10,7 +10,7 @@ from persian_tools import bill
 #تابع کد ملی
 def check_national_id(id_number):
     if nid.validate(id_number):
-        return True
+        return id_number
     else:
         print("invzlid national id ...")
         return False
@@ -19,7 +19,7 @@ def check_national_id(id_number):
 def check_phone_number(phone_num):
      if phone.validate(phone_num):
         print(phone.operator_data(phone_num))
-        return True
+        return phone_num
      else:
         print("invalid phone number ...")
         return False
@@ -28,7 +28,7 @@ def check_phone_number(phone_num):
 def check_card_number(card_num):
     if card_number.validate(card_num):
         print(card_number.bank_data(card_num))
-        return True
+        return card_num
     else:
         print("invzlid card number ...")
         return False
@@ -37,7 +37,7 @@ def check_card_number(card_num):
 def check_car_plate(plate_num):
     if plate.is_valid(plate_num):
         print(plate.get_info(plate_num))
-        return True
+        return plate_num
     else:
         print("invzlid car plate ...")
         return False
