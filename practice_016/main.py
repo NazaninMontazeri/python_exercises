@@ -32,6 +32,19 @@ window.title("profile")
 window.geometry("500x500")
 
 #phone
+Label(window , text="phone").place(x = 20 , y = 20)
+check_phone_number = StringVar()
+Entry(window , textvariable = check_phone_number).place(x = 110 , y = 20)
+
+#national_id
+Label(window , text="national_id").place(x = 20 , y = 60)
+national_id = StringVar()
+Entry(window , textvariable = national_id).place(x = 110 , y = 60)
+
+#card_number
+Label(window , text="card_number").place(x = 20 , y = 100)
+check_card_number = StringVar()
+Entry(window , textvariable = check_card_number).place(x = 110 , y = 100)
 
 
 window.mainloop()
