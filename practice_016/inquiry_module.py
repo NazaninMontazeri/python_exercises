@@ -7,18 +7,6 @@ from persian_tools import plate
 from persian_tools import bill
 
 
-
-#تابع منو
-def show_menu():
-    print("1) Enter a national id")
-    print("2) Enter a phone")
-    print("3) Enter a card number")
-    print("4) Enter a plate number")
-    print("5) Enter a bill id")
-    print("0) Exit")
-    option = int(input("Enter a option :"))
-    return option
-
 #تابع کد ملی
 def national_id(id_number):
     if nid.validate(id_number):
